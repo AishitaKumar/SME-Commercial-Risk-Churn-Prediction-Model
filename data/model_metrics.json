@@ -1,0 +1,37 @@
+{
+  "roc_auc": 0.9845,
+  "pr_auc": 0.9193,
+  "accuracy": 0.9471,
+  "f1": 0.9487,
+  "precision": 0.7751,
+  "recall": 0.8979,
+  "confusion": {
+    "tp": 255,
+    "fp": 74,
+    "fn": 29,
+    "tn": 1588
+  },
+  "top_features": [
+    {
+      "feature": "Total_Trans_Ct",
+      "importance": 0.2844
+    },
+    {
+      "feature": "Total_Trans_Amt",
+      "importance": 0.2517
+    },
+    {
+      "feature": "Total_Revolving_Bal",
+      "importance": 0.1176
+    },
+    {
+      "feature": "Total_Ct_Chng_Q4_Q1",
+      "importance": 0.0895
+    },
+    {
+      "feature": "Avg_Utilization_Ratio",
+      "importance": 0.0577
+    }
+  ],
+  "test_set_size": 1946
+}
