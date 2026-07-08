@@ -8,8 +8,8 @@ Streamlit decision tool, and a Tableau BI dashboard.
 
 ## Live Demos
 <!-- Add these links after deploying -->
-- **Tableau Dashboard (executive BI view):** _[link coming soon]_
-- **Streamlit App (interactive decision engine):** _[link coming soon]_
+- **Tableau Dashboard (executive BI view):** https://public.tableau.com/app/profile/aishita.kumar/viz/Card-MemberRetentionStrategyDashboard/Dashboard1?publish=yes
+- **Streamlit App (interactive decision engine):** https://sme-commercial-risk-churn-prediction-model-mvgzoszgkjggnkkewgu.streamlit.app/
 
 ## Architecture — three layers
 
