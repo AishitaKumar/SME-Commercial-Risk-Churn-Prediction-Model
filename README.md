@@ -84,22 +84,6 @@ at-risk members reached, then picks the weight that **balances both**. The typic
 is a broad plateau around **45–50% risk** — a genuine strategic balance, not a lopsided
 dollar grab. (The Tableau version compares three revenue scenarios via a single toggle.)
 
-## Interview defense notes
-
-- **"Is this real data?"** → "Churn data is real Kaggle credit-card data. Revenue uses
-  interchange on real spend. Save-probability comes from real engagement behavior. The only
-  assumptions are per-channel effectiveness multipliers — a production system learns those
-  from intervention history via an uplift model."
-- **"Why not accuracy?"** → "At a 16% base rate, predicting 'no churn' scores 84%. I
-  optimized recall/PR-AUC because the cost of missing a churner is the whole point."
-- **"How do you avoid wasting money on people who'll leave anyway?"** → "A behavioral
-  save-probability scores disengaged members low, and a sleeping-dogs filter suppresses the
-  already-dormant — but I don't write off reachable high-risk members, who are the best saves."
-
-## Positioning by company
-- **Amex** — card-member retention & CLV is their core business; lead with the per-member ROI action list.
-- **JP Morgan** — emphasize eval rigor (train/test split, imbalance handling, fairness check) + the Spark stack.
-- **Meesho** — emphasize business translation: prediction → prioritized, cost-aware action.
 
 ## Limitations & Next Steps
 
