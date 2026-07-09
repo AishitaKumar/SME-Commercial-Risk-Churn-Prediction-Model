@@ -98,13 +98,13 @@ is itself a finding: neither risk nor value alone is enough.
 Two more pieces of real-world judgment make this feel less like a math exercise and
 more like something a retention leader would actually trust.
 
-**Sleeping dogs.** These are the Customer B's of the world - high risk, but already
+**Sleeping dogs-** These are the Customer B's of the world - high risk, but already
 disengaged past the point of return. The engine identifies them not by their risk
 score (which we've established is a poor signal for "hopeless") but by their
 *behavior*: long dormancy plus collapsing activity. Once flagged, they're set aside.
 Spending on them has negative return, so the system quietly refuses to.
 
-**The money-waste guard.** An action isn't a guaranteed save - calling someone
+**The money-waste guard-** An action isn't a guaranteed save - calling someone
 doesn't magically retain them. So every member also gets a **save-probability**,
 built purely from real behavior: are they still reachable? Is their recent activity
 holding up? A disengaged member scores low here, which drags their expected return
@@ -191,5 +191,5 @@ saying it out loud, is part of doing the work well.
 ## The One-Sentence Version
 
 **This project turns a wall of customer data into a single, practical answer to the
-only question a retention team really has — *who do we act on first, and what
+only question a retention team really has - *who do we act on first, and what
 intervention do we use?* - while making sure every dollar of effort earns its keep.**
